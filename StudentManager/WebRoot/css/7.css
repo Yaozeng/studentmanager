@@ -1,0 +1,25 @@
+body{
+	background-color: PowderBlue;
+}
+p.title{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+hr{
+	margin-top: -10px;
+}
+table.center{
+	margin-top: 20px;
+}
+input.submit{
+	background:MediumTurquoise;
+	width:68px;
+	height:32px;
+	border:none;
+	font-size:14px;
+	color:#fff;
+	 float:left;
+	font-weight:bold;
+	margin-top:20px;
+}

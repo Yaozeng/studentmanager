@@ -1,0 +1,32 @@
+		#search {
+			width:200px;
+			color:#cccccc;
+			float: right; 
+			padding-left: 14px;
+			margin: 5px;
+		}
+		.even{
+		 background-color: #FFFFFF;
+		}
+		.odd{
+		 background-color: #EAEAEA;
+		}
+		.selected{
+		 color: #000000;
+		 font-weight: bold;
+		}
+		
+		table {
+			border-collapse:collapse;
+			width:100%;
+			text-align:center;
+			border-spacing:1pt; 
+			color: #8A8A8A;
+		}
+		table td+td {
+		border-left: 1px solid #EAEAEA;
+		}
+		
+		#left{
+			overflow-y:scroll;
+		}

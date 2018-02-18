@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//WebRoot/MainMenu.jsp=UTF-8
+encoding//WebRoot/exceptionError.jsp=UTF-8
+encoding//WebRoot/paper/addPaper.jsp=UTF-8
+encoding//WebRoot/paper/addPaperManager.jsp=UTF-8
+encoding//WebRoot/paper/addTeacher.jsp=UTF-8
+encoding//WebRoot/paper/addTeacherManager.jsp=UTF-8
+encoding//WebRoot/paper/editPaper.jsp=UTF-8
+encoding//WebRoot/paper/modPaperManager.jsp=UTF-8
+encoding//WebRoot/paper/modTeacher.jsp=UTF-8
+encoding//WebRoot/paper/modTeacherManager.jsp=UTF-8
+encoding//WebRoot/paper/teacherManagerSearch.jsp=UTF-8
+encoding//WebRoot/paper/teacherSearch.jsp=UTF-8

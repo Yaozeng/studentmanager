@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+ <package name="a" extends="struts-default">
+<action name="Login" class="com.studentmanager.action.LoginAction">
+<result name="T">/MainMenu.jsp</result>
+<result name="F">/Login.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="paperAdd" class="com.studentmanager.action.PaperAction" method="addPaper">
+<result name="paperAdd" type="redirect">/paper/paper.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="paperSave" class="com.studentmanager.action.PaperAction" method="save">
+<result name="save" type="redirect">/paper/paper.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="delPaperAction" class="com.studentmanager.action.PaperAction" method="delete">
+<result name="paper" >/paper/paper.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="modPaperManagerAction" class="com.studentmanager.action.PaperManagerAction" method="findById">
+<result name="mod">/paper/modPaperManager.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="delPaperManagerAction" class="com.studentmanager.action.PaperManagerAction" method="delete">
+<result name="delete">/paper/papermanager.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="papermanagerSave" class="com.studentmanager.action.PaperManagerAction" method="save">
+<result name="save">/paper/papermanager.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="papermanagerAdd" class="com.studentmanager.action.PaperManagerAction" method="add">
+<result name="save" type="redirect">/paper/papermanager.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="editPaper" class="com.studentmanager.action.PaperAction" method="findById">
+<result name="edit">/paper/editPaper.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="modTeacher" class="com.studentmanager.action.TeacherAction" method="findById">
+<result name="modify">/paper/modTeacher.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="teacherSave" class="com.studentmanager.action.TeacherAction" method="save">
+<result name="save" type="redirect">/paper/teacher.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="delTeacher" class="com.studentmanager.action.TeacherAction" method="delete">
+<result name="delete" type="redirect">/paper/teacher.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="addTeacher" class="com.studentmanager.action.TeacherAction" method="add">
+<result name="add" type="redirect">/paper/teacher.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="modTeacherManager" class="com.studentmanager.action.TeacherManagerAction" method="findById">
+<result name="modify">/paper/modTeacherManager.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="teachermanagerSave" class="com.studentmanager.action.TeacherManagerAction" method="save">
+<result name="save" type="redirect">/paper/teachermanager.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="delTeacherManager" class="com.studentmanager.action.TeacherManagerAction" method="delete">
+<result name="delete" type="redirect">/paper/teachermanager.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+<action name="addTeacherManager" class="com.studentmanager.action.TeacherManagerAction" method="add">
+<result name="add" type="redirect">/paper/teachermanager.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+</package>
+ <package name="b" extends="struts-default">
+<action name="editPaperAction" class="com.studentmanager.action.PaperAction" method="findById">
+<result name="edit">/paper/editPaper.jsp</result>
+<result name="error">/exceptionError.jsp</result>
+</action>
+</package>
+
+</struts>    
